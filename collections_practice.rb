@@ -5,4 +5,4 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.select {|element| 
+  array.select {|element| element.include
